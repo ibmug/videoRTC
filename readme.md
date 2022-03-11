@@ -1,14 +1,3 @@
-This is a simple application that communicates between two clients using socket.io
-
-1.Socket io handles the connections in the server being listened.
-2.PeersJS handles the peer connections and create userIds.
-3.listeners handle connection/disconnection and answering between clients.
-4.Only two files exist, server.js and script.js
-This particular application is handled by ejs
-through:
-app.set("view engine", "ejs");
-Note that the html is under 'views' as room.ejs, just like a handlebar.
-
 # <img src="client/public/img/logo4.png" width="50"/> Simple Web application based on RTC
 
 ---
@@ -19,13 +8,12 @@ Note that the html is under 'views' as room.ejs, just like a handlebar.
 2. [Functionalities](#functionalities)
 3. [List of Dependencies and Libraries](#list-of-dependencies-and-libraries)
 4. [Installation](#installation)
-5. [How to Set Profiles and Appointments](#how-to-set-user-profiles-and-appointments)
-6. [Demo](#demo)
-7. [Licenses](#licenses)
-8. [Support and Contributions](#support-and-contributions)
-9. [Future Development](#future-development)
-10. [Credits and Acknowledgements](#credits-and-acknowledgements)
-    ​
+5. [Licenses](#licenses)
+6. [Support and Contributions](#support-and-contributions)
+7. [Future Development](#future-development)
+8. [Additional Notes](#additional-notes)
+9. [Credits and Acknowledgements](#credits-and-acknowledgements)
+   ​
 
 ## ​
 
@@ -149,6 +137,17 @@ These are some improved functionalities we want to add to the project in the nea
 - Add user functionality..
 - Add filters to where in the world you want to start talking to.
 - Implement it with react.
+
+## Additional Notes
+
+- Socket io handles the connections in the server being listened.
+- PeersJS handles the peer connections and create userIds.
+- listeners handle connection/disconnection and answering between clients.
+- Only two files exist, server.js and script.js
+  This particular application is handled by ejs
+  through:
+  app.set("view engine", "ejs");
+  Note that the html is under 'views' as room.ejs, just like a handlebar.
   ​
   ​
 
