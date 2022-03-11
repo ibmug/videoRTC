@@ -62,11 +62,6 @@ The Full-Stack breakdown of the application is as follows:
 - [NodeJS](https://nodejs.org/en/) is one of the most widely used local server environments for JavaScript programming. NodeJS was used for local server-testing and to handle server and database connections.
   ​
 - [Express](https://www.npmjs.com/package/express) is a NodeJS-based npm web framework library. It was integrated into JavaScript in order to handle HTTP requests from the database schemas.
-  ​
-- []()
-  ​
-
-  ​
 
 - [SocketIO](https://www.socket.io) is an extension library that, helps with the creation of sockets allowing them the configuration to be simple and efficient.
   ​
