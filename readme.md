@@ -72,8 +72,6 @@ The Full-Stack breakdown of the application is as follows:
   ​
 - [UUID](https://www.uuid.com/) is a basic random generation helper that will allow us to make sure that the rooms are indeed different.
 
-- ​
-
 ## ​
 
 ​
@@ -94,10 +92,6 @@ The steps are simple
 4. Two users should now be able to connect to the server and room in a manner so like: `www.your-server.com/room-id`
    ​
 
-## ​
-
-​
-
 ​
 
 ## Licenses
@@ -112,18 +106,12 @@ The steps are simple
 [![License: WTFPL](https://img.shields.io/badge/License-WTFPL-brightgreen.svg)](http://www.wtfpl.net/about/)
 ​
 
-## ​
-
-​
-
 ## Support and Contributions
 
 ​
 This project is not currently looking for contributors.
 If you're experiencing any issues with the code, feel free to contact us through GitHub or raise an [issue](https://github.com/ibmug/videoRTC) in the original repository.
 ​
-
-## ​
 
 ​
 
@@ -150,8 +138,6 @@ These are some improved functionalities we want to add to the project in the nea
   Note that the html is under 'views' as room.ejs, just like a handlebar.
   ​
   ​
-
-## ​
 
 ​
 
